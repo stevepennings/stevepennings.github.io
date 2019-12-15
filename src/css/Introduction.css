@@ -1,0 +1,31 @@
+.Home-rocketBackground {
+  position: absolute;
+  display: block;
+  left: 50%;    
+  transform: translateX(-50%);
+}
+
+.Home-introductionSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url("../assets/images/rocketBackground.svg");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.Home-introductionTitle {
+  position: relative;
+  margin-top: 7vh;
+}
+
+.Home-introductionDescription{
+  position: relative;
+  margin-top: 3vh;
+  font-size: calc(.5rem + 2vmin);
+  font-family: 'Open Sans', sans-serif;
+  color: #F3F4FF;
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Playfair+Display|Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #313131;
+  background-color: #e0eaf4;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Sections */
+
+.home-skillsAndExperience {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  background: rgb(223, 233, 243);
+  background: linear-gradient(0deg, rgba(223, 233, 243, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  padding: 16px 0;
+}
+
+/* Fonts */
+
+.h1Header {
+  font-size: calc(3rem + 2vmin);
+  font-weight: 1000;
+  font-family: "Playfair Display", serif;
+  color: #f3f4ff;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.h2Header {
+  font-size: calc(2rem + 2vmin);
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  color: #212529;
+}
+
+.h3Header {
+  margin: 16px 32px 16px 32px;
+  font-size: calc(1.3rem + 2vmin);
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  color: #212529;
+}
+
+.selection::selection {
+  color: #8704D2;
+}
+.selection::-moz-selection {
+  color: #8704D2;
+}
+
+.title {
+  font-size: calc(0.4em + 1vmin);
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.4px;
+  color: black;
+}
+
+.description {
+  display: block;
+  position: relative;
+  font-size: calc(0.35em + 1vmin);
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+  color: black;
+  opacity: 0.56;
+}
+
+.subtitleDivider {
+  width: 70px;
+  height: 6px;
+  margin: 30px 0 60px 0;
+}
+
+.paperContainer {
+  display: flex;
+  margin-top: 2em;
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  .paperContainer {
+    display: flex;
+    margin-top: 3em;
+    height: 100%;
+    width: 100%;
+    flex-basis: 50%;
+  }
+}
