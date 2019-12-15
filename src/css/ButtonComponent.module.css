@@ -28,7 +28,7 @@
 
 /* Gradient backgrounds */
 
-.gradientRed {
+.gradientPurple {
   background-color: #d2b6fc;
   background-image: linear-gradient(45deg, #a69af6 0%, #d2b6fc 74%);
   -webkit-box-shadow: 0px 0px 20px 4px rgba(166, 154, 246, 0.6);
@@ -36,15 +36,15 @@
   box-shadow: 0px 0px 20px 4px rgba(166, 154, 246, 0.6);
 }
 
-.gradientBlue {
-  background-color: #fcc0ab;
-  background-image: linear-gradient(45deg, #f2928f 0%, #fcc0ab 74%);
-  -webkit-box-shadow: 0px 0px 20px 4px rgba(242, 146, 143, 0.6);
-  -moz-box-shadow: 0px 0px 20px 4px rgba(242, 146, 143, 0.6);
-  box-shadow: 0px 0px 20px 4px rgba(242, 146, 143, 0.6);
+.gradientTurq {
+  background-color: #90F7EC;
+  background-image: linear-gradient(315deg, #5cd9d5 0%, #AEF7EC 74%);
+  -webkit-box-shadow: 0px 0px 20px 4px rgba(92, 217, 213, 0.6);
+  -moz-box-shadow: 0px 0px 20px 4px rgba(92, 217, 213, 0.6);
+  box-shadow: 0px 0px 20px 4px rgba(92, 217, 213, 0.6);
 }
 
-.gradientGreen {
+.gradientBlue {
   background-color: #c3e6ff;
   background-image: linear-gradient(45deg, #5fbcff 0%, #c3e6ff 74%);
   -webkit-box-shadow: 0px 0px 20px 4px rgba(95, 188, 255, 0.6);

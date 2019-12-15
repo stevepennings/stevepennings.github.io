@@ -7,13 +7,13 @@ const ButtonComponent = (props) => {
     let buttonBackground;
     switch (props.id) {
         case 1:
-            buttonBackground = classnames(classes.ButtonComponent, classes.gradientRed);
-            break;
-        case 2:
             buttonBackground = classnames(classes.ButtonComponent, classes.gradientBlue);
             break;
+        case 2:
+            buttonBackground = classnames(classes.ButtonComponent, classes.gradientTurq);
+            break;
         case 3:
-            buttonBackground = classnames(classes.ButtonComponent, classes.gradientGreen);
+            buttonBackground = classnames(classes.ButtonComponent, classes.gradientPurple);
             break;
         default:
             buttonBackground = classnames(classes.ButtonComponent, classes.gradientBlack);
