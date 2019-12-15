@@ -1,0 +1,21 @@
+.skillsSection {
+  min-height: 100vh;
+}
+
+.Home-skillsTitle {
+  position: relative;
+}
+
+.skillAvatar {
+  height: 72px;
+  width: 72px;
+  background-color: #e0e0e0;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.skillsGrid {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}

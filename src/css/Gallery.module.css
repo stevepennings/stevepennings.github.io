@@ -1,0 +1,25 @@
+.galleryContainer {
+  display: flex;
+  text-align: center;
+  height: 100vh;
+  background-color: #E0EAF4;
+}
+
+.footerBackground {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 20vh;
+    background-image: url("../assets/images/Footer.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+  }
+
+  .gallery {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../assets/images/Gallery.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+  }
